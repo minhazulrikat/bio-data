@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HU:wght@100..400&display=swap');
+
+
+
+*{
+    margin: 0 ;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box !important;
+    font-family:"Poppins", sans-serif;;
+}
+
+.header{
+    height: 300px;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.body{
+    display: flex;
+    padding: 20px 40px ;
+    background: #fff;
+   border-radius: 15px;
+   gap: 7%;
+   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.half1{
+  width: 65%;
+  margin-top: 0px;
+  text-align: center;
+  h1{
+    font-family: "Maname", serif;
+    margin-bottom: 100px;
+    font-size: 55px;
+text-transform: capitalize;
+text-align: left;
+padding: 20px;
+line-height: 70px;
+  }
+ 
+}
+.half2{
+   width: 35%;
+   background: #74BDCB;
+   border-radius: 10px 10px ;
+   padding: 19px 10px;
+   margin: 0 auto;
+   text-align: center;
+
+   h1{
+    font-family: "Playwrite HU", cursive;
+    /* font-weight: 100; */
+    text-transform: capitalize;
+    line-height: 35px;
+   }
+}
+.div1{
+    width: 50%;
+    margin: 0 auto;
+ 
+   
+    padding: 10px;
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        filter: grayscale(.1);
+    }
+}
+.contact {
+    margin-top: 100px;
+    h4{
+        background: #fff;
+        padding: 5px 10px;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    p{
+        padding: 20px 40px ;
+        font-size: 1.2rem;
+        color: white;
+    }
+}
+.PROFILE{
+    h4{
+        background: #74BDCB;
+        padding: 5px 10px;
+        width: 100%;
+        font-size: 1.5rem;
+        color: white;
+    }
+    p{
+        padding: 20px 0px 20px 20px;
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 0.715);
+        text-align: left;
+    }
+}
+.hobbie{
+    line-height: 55px;
+}
